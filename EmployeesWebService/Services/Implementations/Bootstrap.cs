@@ -19,21 +19,15 @@ public sealed class Bootstrap : IBootstrap
     {
         _queryFactory.Connection.Query(
             "create table if not exists public.company(" +
-            "\nid int4 primary key," +
+            "\nid serial primary key," +
             "\nname text not null)");
 
         _queryFactory.Connection.Query(
             "create table if not exists public.department(" +
-            "\nid int4 primary key," +
+            "\nid serial primary key," +
             "\nname text not null," +
             "\nphone text," +
             "\ncompany_id int4 references public.company(id))");
-
-        _queryFactory.Connection.Query(
-            "create table if not exists public.passport(" +
-            "\nid int4 primary key," +
-            "\ntype text not null," +
-            "\nnumber text not null)");
 
         _queryFactory.Connection.Query(
             "create table if not exists public.employee(" +
@@ -41,7 +35,13 @@ public sealed class Bootstrap : IBootstrap
             "\nname text not null," +
             "\nsurname text not null," +
             "\nphone text not null," +
-            "\npassport_id int4 references passport(id)," +
             "\ndepartment_id int4 references department(id))");
+        
+        _queryFactory.Connection.Query(
+            "create table if not exists public.passport(" +
+            "\nid serial primary key," +
+            "\ntype text not null," +
+            "\nnumber text not null," +
+            "employee_id bigserial references employee(id))");
     }
 }

@@ -4,26 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f94cde4-23eb-405b-8551-bb734d9e4b2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.EmployeesWebService/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.EmployeesWebService/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.EmployeesWebService/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.EmployeesWebService/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.WebService/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmployeesWebService.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmployeesWebService/EmployeesWebService.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmployeesWebService/Extensions/ServiceCollectionExtension.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmployeesWebService/Extensions/WebApplicationExtension.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmployeesWebService/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmployeesWebService/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmployeesWebService/Repositories/Implementations/DbConnectionManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmployeesWebService/Repositories/Interfaces/Employees/IEmployeeRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmployeesWebService/Repositories/Interfaces/IDbConnectionManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmployeesWebService/Services/Implementations/Bootstrap.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmployeesWebService/Services/Interfaces/IBootstrap.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmployeesWebService/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
+    <list default="true" id="4f94cde4-23eb-405b-8551-bb734d9e4b2e" name="Changes" comment="init proj">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebService/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +43,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -127,12 +109,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1699469012018</updated>
-      <workItem from="1699469013128" duration="6251000" />
+      <workItem from="1699469013128" duration="6721000" />
     </task>
+    <task id="LOCAL-00001" summary="init proj">
+      <option name="closed" value="true" />
+      <created>1699476662886</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699476662886</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init proj" />
+    <option name="LAST_COMMIT_MESSAGE" value="init proj" />
+  </component>
 </project>

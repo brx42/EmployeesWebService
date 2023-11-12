@@ -5,41 +5,18 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <RootNamespace>EmployeesWebService</RootNamespace>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <NoWarn>$(NoWarn);1591</NoWarn>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="FastEndpoints" Version="5.19.2" />
-      <PackageReference Include="FastEndpoints.Swagger" Version="5.19.2" />
-      <PackageReference Include="Mapster" Version="7.4.0" />
-      <PackageReference Include="Mapster.DependencyInjection" Version="1.0.1" />
-      <PackageReference Include="Npgsql" Version="7.0.6" />
-      <PackageReference Include="SqlKata" Version="2.4.0" />
-      <PackageReference Include="SqlKata.Execution" Version="2.4.0" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Dtos\Employee\" />
-      <Folder Include="Endpoints\Employee\Create\Execute\" />
-      <Folder Include="Endpoints\Employee\Create\Mapping\" />
-      <Folder Include="Endpoints\Employee\Create\Request\" />
-      <Folder Include="Endpoints\Employee\Create\Response\" />
-      <Folder Include="Endpoints\Employee\Delete\Execute\" />
-      <Folder Include="Endpoints\Employee\Delete\Mapping\" />
-      <Folder Include="Endpoints\Employee\Delete\Request\" />
-      <Folder Include="Endpoints\Employee\Delete\Response\" />
-      <Folder Include="Endpoints\Employee\GetByCompanyId\Execute\" />
-      <Folder Include="Endpoints\Employee\GetByCompanyId\Mapping\" />
-      <Folder Include="Endpoints\Employee\GetByCompanyId\Request\" />
-      <Folder Include="Endpoints\Employee\GetByCompanyId\Response\" />
-      <Folder Include="Endpoints\Employee\GetByDepartmentId\Execute\" />
-      <Folder Include="Endpoints\Employee\GetByDepartmentId\Mapping\" />
-      <Folder Include="Endpoints\Employee\GetByDepartmentId\Request\" />
-      <Folder Include="Endpoints\Employee\GetByDepartmentId\Response\" />
-      <Folder Include="Endpoints\Employee\Update\Execute\" />
-      <Folder Include="Endpoints\Employee\Update\Mapping\" />
-      <Folder Include="Endpoints\Employee\Update\Request\" />
-      <Folder Include="Endpoints\Employee\Update\Response\" />
-      <Folder Include="Repositories\Implementations\Employees\" />
+        <PackageReference Include="Mapster" Version="7.4.0"/>
+        <PackageReference Include="Mapster.DependencyInjection" Version="1.0.1"/>
+        <PackageReference Include="Npgsql" Version="7.0.6"/>
+        <PackageReference Include="SqlKata" Version="2.4.0"/>
+        <PackageReference Include="SqlKata.Execution" Version="2.4.0"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0"/>
+        <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.5.0"/>
     </ItemGroup>
 
 </Project>
